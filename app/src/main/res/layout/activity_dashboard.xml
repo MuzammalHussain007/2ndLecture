@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:layout_centerInParent="true"
+    tools:context=".Dashboard"
+    android:gravity="center_horizontal"
+    android:padding="50px">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameview"
+        android:text="Name"
+        android:inputType="text"
+        android:textSize="30px"
+        android:layout_marginTop="40px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Emailview"
+        android:layout_below="@+id/nameview"
+        android:text="Email"
+        android:inputType="text"
+        android:textSize="40px"
+        android:layout_marginTop="40px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Passwordview"
+        android:layout_below="@+id/Emailview"
+        android:text="Email"
+        android:inputType="text"
+        android:textSize="40px"
+        android:layout_marginTop="40px"/>
+
+
+</RelativeLayout>
